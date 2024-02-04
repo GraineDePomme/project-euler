@@ -7,6 +7,9 @@
 -- Find the sum of all the multiples of 3 or 5 below 1000.
 
 
+module Problem_0001 where
+
+
 multiplesOf3 = [3, 6..1000] :: [Int]
 
 multiplesOf5 = [5, 10..1000] :: [Int]
